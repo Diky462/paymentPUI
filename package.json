@@ -13,5 +13,14 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "midtrans-client": "^1.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diky462/paymentPUI.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Diky462/paymentPUI/issues"
+  },
+  "homepage": "https://github.com/Diky462/paymentPUI#readme"
 }
