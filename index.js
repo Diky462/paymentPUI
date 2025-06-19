@@ -41,11 +41,7 @@ app.post("/createTransaction", async (req, res) => {
         first_name: name,
         email: email
       },
-      callbacks: {
-        finish: "https://www.damargtg.store/sukses.html",
-        error: "https://www.damargtg.store/gagal.html",
-        unfinish: "https://www.damargtg.store/unfinish.html"
-      }
+      
     };
 
     const transaction = await snap.createTransaction(parameter);
